@@ -11,7 +11,7 @@ pipeline{
     stages{
       stage('checking'){
         steps{
-          git branch:'main',url:'https://github.com/yang5265548/week7-tripcal.git'
+          git branch:'main',url:'https://github.com/yang5265548/week10_cartLcal.git'
         }
       }
       stage('build'){
